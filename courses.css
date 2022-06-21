@@ -132,6 +132,7 @@ a{
 .cour-container{
 	width: 1140px;
 	margin: auto;
+	margin-bottom: 50px;
 }
 .cour-header h2{
 	font-size: 28px;
@@ -160,3 +161,221 @@ a{
 }
 
 /* course taital part  End */
+
+
+/* Address part Start */
+
+.address{
+	width: 100%;
+
+}
+.add-container{
+	width: 1140px;
+	margin: auto;
+	
+}
+.add-contant{
+	background: #2E367D;
+	color: white;
+	display: flex;
+	border-radius: 8px;
+	margin-bottom: 60px;
+	padding: 100px 60px 80px 60px;
+}
+.add-left{
+	flex-basis: 50%;
+}
+.add-right{
+	flex-basis: 50%;
+}
+.add-contant p{
+	font-weight: 400;
+	line-height: 1.9;
+	font-size: 16px;
+}
+
+
+/* Address part Start */
+
+
+/* Footer part start */
+
+
+.footer{
+	width: 100%;
+
+}
+.foot-container{
+	width: 1140px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.foot-contant{
+	display: flex;
+}
+.shikbe-shobai{
+	flex-basis: 25%;
+	padding-right: 10px;
+
+}
+.shikbe-shobai h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.lets-connect{
+	flex-basis: 25%;
+	margin-left: 30px;
+	padding-right: 10px;
+
+}
+.lets-connect h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.usefull-link{
+	flex-basis: 25%;
+	margin-left: 30px;
+}
+.usefull-link h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.usefull-link ul{
+	list-style: none;
+}
+.usefull-link a{
+	color: #91a3bb;
+	line-height: 1.9;
+	transition: .5s;
+}
+.usefull-link a:hover{
+	color: #1e266d;
+	margin-left:8px;
+	transition: .5s;
+}
+.social-link{
+	flex-basis: 25%;
+	margin-left: 30px;
+}
+.social-link h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.social-link ul{
+	list-style: none;
+}
+.social-link a{
+	color: #91a3bb;
+	line-height: 1.9;
+	transition: .5s;
+}
+.social-link a:hover{
+	color: #1e266d;
+	margin-left:8px;
+	transition: .5s;
+}
+.shikbe-shobai p,
+.lets-connect p{
+	color: #91a3bb;
+	font-weight: 400;
+	line-height: 1.9;
+
+}
+
+.a{
+	font-size: 26px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	background: darkblue;
+	padding: 12px 30px;
+	color: white;
+	border-radius: 8px;
+	margin-right: 10px;
+
+}
+.b{
+	font-size: 26px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	background: darkblue;
+	padding: 12px 30px;
+	color: white;
+	border-radius: 8px;
+	background: #D4236A;
+}
+.a:hover{
+
+	background: skyblue;
+}
+.b:hover{
+	background: pink;
+}
+
+/* Footer part End */
+
+.about-us{
+	width: 100%;
+
+}
+.about-container{
+	width: 1140px;
+	margin: auto;
+}
+.dis-f{
+	font-size: 28px;
+	margin-top: 40px;
+	font-weight: 700;
+	padding: 20px 0 30px;
+	color: #1e266d;
+}
+.des-g{
+	color: #333;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.dis-c{
+	color: #333;
+	font-size: 26px;
+	margin-bottom: 20px;
+	line-height: 14px;
+	font-weight: 700;
+}
+.dis-e{
+	font-size: 20px;
+	margin-bottom: 150px;
+	line-height: 24px;
+	color: #0c2f54;
+	font-weight: 700;
+	text-align: center;
+
+}
+.payment{
+	width: 100%;
+}
+.pay-container{
+	width:1140px;
+	margin: auto;
+}
+.pay-contant img{
+	max-width: 100%;
+}
+.me{
+	padding: 40px 40px;
+	font-size: 16px;
+	text-align: center;
+	color: #91a3bb;
+}
