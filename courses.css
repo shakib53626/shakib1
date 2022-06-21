@@ -161,7 +161,9 @@ a{
 	margin-bottom: 20px;
 }
 
-/* course taital part  End */
+/* course title part  End */
+
+
 
 
 /* Banani Campus Offered Courses  Start */
@@ -203,7 +205,6 @@ a{
 	border-radius: 0 0 8px 8px;
 	font-weight: 500;
 }
-}
 .rd{
 	float: right;
 	margin-right: 20px;
@@ -216,7 +217,7 @@ a{
 .ba-of-full-stack{
 	width: 85%;
 	margin: auto;
-	background: #DFF6FF;
+	background: silver;
 	padding: 15px 10px;
 	margin-top: 170px;
 	border-radius: 10px;
@@ -320,9 +321,8 @@ a{
 }
 
 
-
-
 /* Banani Campus Offered Courses  Start */
+
 
 
 /* Address part Start */
@@ -357,7 +357,7 @@ a{
 }
 
 
-/* Address part Start */
+/* Address part End */
 
 
 /* Footer part start */
@@ -541,3 +541,7 @@ a{
 	text-align: center;
 	color: #91a3bb;
 }
+
+
+
+
