@@ -164,6 +164,112 @@ a{
 /* course taital part  End */
 
 
+/* Banani Campus Offered Courses  Start */
+
+.banani-offered{
+	width: 100%;
+	margin-bottom: 180px;
+}
+.ba-of-container{
+	width: 1140px;
+	margin: auto;
+}
+
+.ba-of-contant{
+	margin: 50px 0;
+}
+
+.ba-of-campus-courses h2{
+	font-size: 28px;
+	line-height: 36px;
+	color: #1e266d;
+	padding: 20px 0 30px;
+}
+.ba-of-fullpart{
+	display: flex;
+}
+.ba-of-left{
+	flex-basis:33.33%;
+	background-image: url('img/1973823540.png');
+	margin-right: 15px;
+	height: 200px;
+}
+.ba-of-left span{
+	float: right;
+	margin-right: 20px;
+	background: #FEB52B;
+	color: white;
+	padding: 8px 15px;
+	border-radius: 0 0 8px 8px;
+	font-weight: 500;
+}
+.ba-of-full-stack{
+	width: 85%;
+	margin: auto;
+	background: silver;
+	padding: 15px 10px;
+	margin-top: 170px;
+	border-radius: 10px;
+	transition: .5s;
+}
+.ba-of-full-stack:hover{
+	margin-top: 180px;
+	transition: .5s;
+}
+.ba-of-full-stack h2{
+	font-size: 18px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+	
+}
+.full-stack-information{
+		margin-left: 10px;	
+}
+.full-stack-teacher ul{
+		list-style: none;
+		display: flex;
+}
+.sohag{
+	margin-left: 4px;
+	color: green;
+}
+.class-hours ul{
+		list-style: none;
+		padding-top: 5px;
+		display: flex;
+}
+.hours{
+	padding-left: 18px;
+}
+.seats{
+	padding-right: 90px;
+}
+.enroll{
+	border: 1px solid blue;
+	padding: 10px 15px;
+	color: blue;
+	border-radius: 30px;
+}
+.enroll:hover{
+	background: #007bff;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.middle{
+	background: url('img/1955206587.png');
+}
+.right{
+	background: url('img/631413711.png');
+}
+
+
+
+
+/* Banani Campus Offered Courses  Start */
+
+
 /* Address part Start */
 
 .address{
