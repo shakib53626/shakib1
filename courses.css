@@ -194,10 +194,20 @@ a{
 	margin-right: 15px;
 	height: 200px;
 }
-.ba-of-left span{
+.nd{
 	float: right;
 	margin-right: 20px;
 	background: #FEB52B;
+	color: white;
+	padding: 8px 15px;
+	border-radius: 0 0 8px 8px;
+	font-weight: 500;
+}
+}
+.rd{
+	float: right;
+	margin-right: 20px;
+	background: #4FC68D;
 	color: white;
 	padding: 8px 15px;
 	border-radius: 0 0 8px 8px;
@@ -272,6 +282,41 @@ a{
 }
 .nd-right{
 	background: url('img/1955206587.png');
+}
+.rd-left{
+	background: url('img/1184368754.jpg') no-repeat;
+	background-size: 370px;
+}
+.rd-middle{
+	background: url('img/2102572322.png');
+}
+.rd-right{
+	background: url('img/653566556.png');
+}
+.on-left{
+	background: url('img/1973823540.png') no-repeat;
+	
+}
+.on-middle{
+	background: url('img/1364688980.png');
+}
+.on-right{
+	background: url('img/1955206587.png');
+}
+.mn-left{
+	background: url('img/576995406.jpg') no-repeat;
+	background-size: 370px;
+}
+.mn-middle{
+	background: url('img/2127960201.png') no-repeat;
+	background-size: 370px;
+}
+.mn-right{
+	background: url('img/706772794.png') no-repeat;
+	background-size: 370px;
+}
+.margin{
+	margin-bottom: 250px;
 }
 
 
