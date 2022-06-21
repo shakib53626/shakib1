@@ -95,35 +95,36 @@ a{
 	flex-basis: 50%;
 	margin-top: 10px;
 }
+
 .bran-tit-right{
 	flex-basis: 50%;
-
 }
 .bran-tit-right ul{
-	list-style: none;
 	display: flex;
+	list-style: none;
 	float: right;
 	border: .1px solid silver;
 	padding: 10px 0;
 }
-.bran-tit-right a{
-	margin: 0;
-	padding: 10px 14px;
+.all-courses{
+	background: darkblue;
+	color: white;
+	padding: 10px 10px 10px 20px;
 }
-.a{
+.bran-location{
+	padding: 10px 10px;
+}
+.bran-location:hover{
 	background: darkblue;
 	color: white;
 }
-.b:hover{
-	background: darkblue;
-	color: white;
-}
 
 
-/* Brance part Start */
+
+/* Brance part End */
 
 
-/* course taital part Start */
+/* course title part Start */
 
 .course-title{
 	width: 100%;
