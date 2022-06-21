@@ -752,6 +752,16 @@ a{
 	text-align: center;
 
 }
+.payment{
+	width: 100%;
+}
+.pay-container{
+	width:1140px;
+	margin: auto;
+}
+.pay-contant img{
+	max-width: 100%;
+}
 .me{
 	padding: 40px 40px;
 	font-size: 16px;
