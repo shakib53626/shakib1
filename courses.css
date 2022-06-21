@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	width: 100%;
+	background: #F5F7FA;
+	position: sticky;
+	top: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.container-all-item{
+	display: flex;
+}
+.logo{
+	flex-basis: 20%;
+
+}
+.logo img{
+	width: 100px;
+}
+.menu-var{
+	flex-basis: 60%;
+}
+.menu-var ul{
+	
+}
+.menu-var li{
+	padding: 15px 10px;
+	list-style: none;
+	display: inline-block;
+}
+.menu-var a{
+	color: #1e266d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 50px;
+	transition: .5s;
+	display: inline-block;
+	padding-left: 8px;
+
+}
+.menu-var a:hover{
+	color: black;
+	transform: scale(1.2);
+	transition: .5s;
+	display: inline-block;
+}
+.login-part{
+	flex-basis: 20%;
+	margin: auto;
+}
+.login-part a{
+	color: white;
+	background: darkblue;
+	padding: 10px 20px;
+	transition: .5s;
+}
+.login-part a:hover{
+	background: skyblue;
+	transition: .5s;
+}
+
+/* header Part End */
+
+/* Brance part Start */
+
+.brance-title{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 80px;
+
+}
+.bran-tit-container{
+	width: 1140px;
+	margin: auto;
+}
+.bran-tit-contant{
+	display: flex;
+}
+.bran-tit-left{
+	flex-basis: 50%;
+	margin-top: 10px;
+}
+.bran-tit-right{
+	flex-basis: 50%;
+
+}
+.bran-tit-right ul{
+	list-style: none;
+	display: flex;
+	float: right;
+	border: .1px solid silver;
+	padding: 10px 0;
+}
+.bran-tit-right a{
+	margin: 0;
+	padding: 10px 14px;
+}
+.a{
+	background: darkblue;
+	color: white;
+}
+.b:hover{
+	background: darkblue;
+	color: white;
+}
+
+
+/* Brance part Start */
+
+
+/* course taital part Start */
+
+.course-title{
+	width: 100%;
+
+}
+.cour-container{
+	width: 1140px;
+	margin: auto;
+}
+.cour-header h2{
+	font-size: 28px;
+	line-height: 36px;
+	color: #1e266d;
+	padding: 20px 0 30px;
+}
+.cour-inf{
+	display: flex;
+}
+.ab{
+	flex-basis: 20%;
+	text-align: center;
+	background: #F7F7F7;
+	margin: 5px 5px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	border-radius: 8px;
+}
+.ab img{
+	max-width: 100%;
+	width: 80px;
+	display: block;
+	margin-left: 71px;
+	margin-bottom: 20px;
+}
+
+/* course taital part  End */
