@@ -73,6 +73,22 @@ a{
 	background: skyblue;
 	transition: .5s;
 }
+.sub-menu-bar{
+	display: none;
+}
+.menu-var ul li:hover .sub-menu-bar{
+	display: block;
+	position: absolute;
+	background: #F5F7FA;
+	margin-top: 10px;
+	margin-left: -65px;
+}
+.menu-var ul li:hover .sub-menu-bar ul li{
+	display: block;
+	text-align: center;
+	padding: 0 35px;
+
+}
 
 /* header Part End */
 
