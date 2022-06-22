@@ -82,6 +82,7 @@ a{
 	background: #F5F7FA;
 	margin-top: 10px;
 	margin-left: -65px;
+	padding-bottom: 15px;
 }
 .menu-var ul li:hover .sub-menu-bar ul li{
 	display: block;
