@@ -1,0 +1,512 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	width: 100%;
+	background: #F5F7FA;
+	position: sticky;
+	top: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.container-all-item{
+	display: flex;
+}
+.logo{
+	flex-basis: 20%;
+
+}
+.logo img{
+	width: 100px;
+}
+.menu-var{
+	flex-basis: 60%;
+}
+.menu-var ul{
+	
+}
+.menu-var li{
+	padding: 15px 10px;
+	list-style: none;
+	display: inline-block;
+}
+.menu-var a{
+	color: #1e266d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 50px;
+	transition: .5s;
+	display: inline-block;
+	padding-left: 8px;
+
+}
+.menu-var a:hover{
+	color: black;
+	transform: scale(1.2);
+	transition: .5s;
+	display: inline-block;
+}
+.login-part{
+	flex-basis: 20%;
+	margin: auto;
+}
+.login-part a{
+	color: white;
+	background: darkblue;
+	padding: 10px 20px;
+	transition: .5s;
+}
+.login-part a:hover{
+	background: skyblue;
+	transition: .5s;
+}
+.sub-menu-bar{
+	display: none;
+}
+.menu-var ul li:hover .sub-menu-bar{
+	display: block;
+	position: absolute;
+	background: #F5F7FA;
+	margin-top: 10px;
+	margin-left: -65px;
+	padding-bottom: 15px;
+}
+.menu-var ul li:hover .sub-menu-bar ul li{
+	display: block;
+	text-align: center;
+	padding: 0 35px;
+
+}
+
+
+/* header Part End */
+
+
+/* Brance part Start */
+
+.brance-title{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 80px;
+
+}
+.bran-tit-container{
+	width: 1140px;
+	margin: auto;
+}
+.bran-tit-contant{
+	display: flex;
+}
+.bran-tit-left{
+	flex-basis: 50%;
+	margin-top: 10px;
+}
+
+
+/* Brance part End */
+
+
+/* Our Class Mentor Title Part Start */
+
+.class-mentor{
+	width: 100%;
+}
+.cla-men-container{
+	width: 1140px;
+	margin: auto;
+}
+
+.cla-men-contant{
+	margin: 50px 0;
+}
+
+.cla-men-header h2{
+	font-size: 28px;
+	color: #1e266d;
+	padding-top: 20px;
+}
+.cla-men-contant span{
+	line-height: 1.9;
+	color: #526375;
+}
+
+/* Our Class Mentor Title Part End */
+
+
+
+/* Our Class Mentor details part Start */
+
+
+.mentor-details-header{
+	width: 100%;
+}
+.mentor-details-container{
+	width: 1140px;
+	margin: auto;
+}
+.mentor-details-contant{
+	display: flex;
+	margin-bottom: 100px;
+
+}
+.mentor-details-courses{
+	width: 25%;
+}
+.mentor-details-courses ul{
+	list-style: none;
+	text-align: center;
+}
+.mentor-details-courses ul li{
+	margin: 0 10px 0 10px;
+}
+
+.mentor-details-courses a{
+	width: 100%;
+	color: white;
+	display: block;
+	padding: 15px 0;
+	font-size: 16px;
+
+}
+.basic-com-ba-color{
+	background: #1DAEF0;
+}
+.basic-com-ba-color-auto{
+	background: #2e367d;
+}
+.mentor-details-courses a:hover{
+	background: #1DAEF0;
+}
+.first-mentor-info{
+	width: 25%;
+	height: 365px;
+	margin: auto;
+	background: #DFF6FF;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.naser img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 230px;
+	margin-left: 20px;
+}
+.first-mentor-info h3{
+	color: #0c2f54;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.first-mentor-info span{
+	font-size: 16px;
+	color: #6c6c6c;
+	text-align: center;
+	display: block;
+	margin-bottom: 15px;
+}
+.mentor-view-button{
+	display: block;
+	text-align: center;
+	
+}
+.mentor-view-button a{
+	background: #1e266d	;
+	color: white;
+	text-align: center;
+	padding: 8px 15px;
+}
+.obonti img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 212px;
+	margin-left: 30px;
+}
+.arafat img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 231px;
+	margin-left: 20px;
+}
+
+.wafa img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 203px;
+	margin-left: 33px;
+}
+.kader img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 178px;
+	margin-left: 47px;
+}
+.naimul img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 217px;
+	margin-left: 26px;
+}
+.safwan img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 230px;
+	margin-left: 20px;
+}
+.imran img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 230px;
+	margin-left: 20px;
+}
+.nishatul img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 222px;
+	margin-left: 24px;
+}
+.farukh img{
+	max-width: 100%;
+	margin: 10px 10px 5px 10px;
+	width: 230px;
+	margin-left: 21px;
+}
+
+
+
+
+
+/* Our Class Mentor details part End */
+
+
+
+/* Address part Start */
+
+.address{
+	width: 100%;
+
+}
+.add-container{
+	width: 1140px;
+	margin: auto;
+
+	
+}
+.add-contant{
+	background: #2E367D;
+	color: white;
+	display: flex;
+	border-radius: 8px;
+	margin-bottom: 60px;
+	padding: 100px 60px 80px 60px;
+}
+.add-left{
+	flex-basis: 50%;
+}
+.add-right{
+	flex-basis: 50%;
+}
+.add-contant p{
+	font-weight: 400;
+	line-height: 1.9;
+	font-size: 16px;
+}
+
+
+/* Address part End */
+
+
+/* Footer part start */
+
+
+.footer{
+	width: 100%;
+
+}
+.foot-container{
+	width: 1140px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.foot-contant{
+	display: flex;
+}
+.shikbe-shobai{
+	flex-basis: 25%;
+	padding-right: 10px;
+
+}
+.shikbe-shobai h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.lets-connect{
+	flex-basis: 25%;
+	margin-left: 30px;
+	padding-right: 10px;
+
+}
+.lets-connect h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.usefull-link{
+	flex-basis: 25%;
+	margin-left: 30px;
+}
+.usefull-link h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.usefull-link ul{
+	list-style: none;
+}
+.usefull-link a{
+	color: #91a3bb;
+	line-height: 1.9;
+	transition: .5s;
+}
+.usefull-link a:hover{
+	color: #1e266d;
+	margin-left:8px;
+	transition: .5s;
+}
+.social-link{
+	flex-basis: 25%;
+	margin-left: 30px;
+}
+.social-link h6{
+	color: #1e266d;
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	font-weight: 700;
+}
+.social-link ul{
+	list-style: none;
+}
+.social-link a{
+	color: #91a3bb;
+	line-height: 1.9;
+	transition: .5s;
+}
+.social-link a:hover{
+	color: #1e266d;
+	margin-left:8px;
+	transition: .5s;
+}
+.shikbe-shobai p,
+.lets-connect p{
+	color: #91a3bb;
+	font-weight: 400;
+	line-height: 1.9;
+
+}
+
+.a{
+	font-size: 26px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	background: darkblue;
+	padding: 12px 30px;
+	color: white;
+	border-radius: 8px;
+	margin-right: 10px;
+
+}
+.b{
+	font-size: 26px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	background: darkblue;
+	padding: 12px 30px;
+	color: white;
+	border-radius: 8px;
+	background: #D4236A;
+}
+.a:hover{
+
+	background: skyblue;
+}
+.b:hover{
+	background: pink;
+}
+
+/* Footer part End */
+
+.about-us{
+	width: 100%;
+
+}
+.about-container{
+	width: 1140px;
+	margin: auto;
+}
+.dis-f{
+	font-size: 28px;
+	margin-top: 40px;
+	font-weight: 700;
+	padding: 20px 0 30px;
+	color: #1e266d;
+}
+.des-g{
+	color: #333;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.dis-c{
+	color: #333;
+	font-size: 26px;
+	margin-bottom: 20px;
+	line-height: 14px;
+	font-weight: 700;
+}
+.dis-e{
+	font-size: 20px;
+	margin-bottom: 150px;
+	line-height: 24px;
+	color: #0c2f54;
+	font-weight: 700;
+	text-align: center;
+
+}
+.payment{
+	width: 100%;
+}
+.pay-container{
+	width:1140px;
+	margin: auto;
+}
+.pay-contant img{
+	max-width: 100%;
+}
+.me{
+	padding: 40px 40px;
+	font-size: 16px;
+	text-align: center;
+	color: #91a3bb;
+}
